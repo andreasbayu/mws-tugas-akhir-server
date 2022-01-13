@@ -11,20 +11,20 @@ class Menu extends ResourceController
 
     public function index()
     {
-        $data = $this->model->select('
-            tm.id,
-            tm.nama,
-            tm.status,
-            tm.harga,
-            tm.gambar,
-            tm.kategori_id,
+        $data = $this->model->select(
+            '
+            tbl_menu.id,
+            tbl_menu.nama,
+            tbl_menu.status,
+            tbl_menu.harga,
+            tbl_menu.gambar,
+            tbl_menu.kategori_id,
             tkm.nama as nama_kategori,
-            tm.created_at,
-            tm.updated_at
+            tbl_menu.created_at,
+            tbl_menu.updated_at
         ')
-        ->from('tbl_menu as tm')
-        ->join('tbl_kategori_menu as tkm', 'tm.kategori_id = tkm.id', 'LEFT')
-        ->findAll();
+            ->join('tbl_kategori_menu as tkm', 'tbl_menu.kategori_id = tkm.id', 'RIGHT')
+            ->findAll();
 
         return $this->respond($data, 200);
     }
