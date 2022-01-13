@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/server/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/server/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/server/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/server/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/server/vendor/kint-php/kint" />
+      <path value="$PROJECT_DIR$/server/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/server/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/server/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/server/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/server/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/server/vendor/codeigniter4/framework" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/server/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/server/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/server/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/server/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/server/vendor/mikey179/vfsstream" />
+      <path value="$PROJECT_DIR$/server/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/server/vendor/composer" />
+      <path value="$PROJECT_DIR$/server/vendor/firebase/php-jwt" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/server/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
